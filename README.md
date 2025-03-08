@@ -30,5 +30,6 @@ func _ready() -> void:
 
 ```
 
-I personally would be more happy about it only working as subnode instead of on `_ready`, which makes it impossible to disable unless detaching script from node or deleting the node.
+I personally would be more happy about it only working as subnode instead of on `_ready`, which makes it impossible to disable unless detaching script from node or deleting the node.  
+For future improvement this subnode should only script/affect the node it is added to.   
 ![image](https://github.com/user-attachments/assets/5576f55a-f46e-40cb-b661-111c4b755c31)
