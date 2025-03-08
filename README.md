@@ -29,3 +29,5 @@ func _ready() -> void:
 	InputMap.action_add_event("ui_right", right_event)
 
 ```
+
+I personally would be more happy about it only working as subnode instead of on `_ready`, which makes it impossible to disable unless detaching script from node or deleting the node.
